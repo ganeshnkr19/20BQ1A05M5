@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <title>Dining form</title>
+</html>
+<body style="background-color:rgb(45, 236, 179); color: rgb(0, 0, 0);">
+    <center>
+    <h3 style="text-align: center; color: blue;" >Dine Booking</h3>
+    <hr>
+      Visitor Name: <input type="text" placeholder="please enter your name" maxlength="20">
+      <br>
+      <br>
+      Number of members: <input type="number" placeholder="please enter headcount" maxlength="2" pattern="[0-9]">
+      <br>
+      <br>
+      Contact No: <input type="tel" placeholder="please enter your contact number" maxlength="10" autofocus="true">
+      <br>
+      <br>
+      Email: <input type="text" placeholder="please enter your email" maxlength="10" autofocus="true">
+      <br>
+      <br>
+      Types of Food: <input type="radio" id="south" value="south indian" name="southeren">
+                        <label for="south">SOUTH INDIAN</label>
+                        <input type="radio" id="north" value="north indian" name="northern">
+                        <label for="north">NORTH INDIAN</label>
+                        <input type="radio" id="italian" value="italian" name="italy">
+                        <label for="italian">ITALIAN</label>
+       <br>
+       <br>
+       Room Status: <input type="radio" id="ac">
+       <label for="ac">AC</label>
+       <input type="radio" id="non-ac">
+       <label for="non-ac">NON-AC</label>
+       <h4>Venue Preference</h4>
+        <select name="places" id="venues">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Goa">Goa</option>
+            <option value="Banglore">Mumbai</option>
+            <option value="Manali">Mumbai</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" value="submit">
+        <input type="button" value="reset">
+    </center>
+</body>
