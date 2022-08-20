@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rergister Form</title>
+    <select>
+        
+    </select>
+</head>
+<body>
+    <form align="center">
+        <label style="font-size: 30px; font-weight:bold;">Register Form</label><br><br><br>
+        <label>First Name:</label>
+        <label style="color: red;">*</label>
+        <input type="text" name="fn" maxlength="10"><br><br>
+        <label>Last Name:</label>
+        <label style="color: red;">*</label>
+        <input type="text" name="ln" maxlength="10"><br><br>
+        <label>Date of Birth:</label>
+        <label style="color: red;">*</label>
+        <input type="date" name="date"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others<br><br>
+        <label>Degree:</label>
+        <select>
+            <option>--select--</option>
+            <option>Bachelors</option>
+            <option>Masters</option>
+            <option>Decorate</option>
+        </select><br><br>
+        <label>Specialization:</label>
+        <label style="color: red;">*</label>
+        <input type="text" name="spe" maxlength="40"><br><br>
+        <label>Current CGPA:</label>
+        <label style="color: red;">*</label>
+        <input type="number" max="5" step="0.1"><br><br>
+        <label>Phone Number:</label>
+        <label style="color: red;">*</label>
+        <input type="tel"><br><br>
+        <label>Address:</label>
+        <label style="color: red;">*</label>
+        <textarea rows="4" maxlength="40"></textarea><br><br>
+    </form>
+</body>
+</html>
